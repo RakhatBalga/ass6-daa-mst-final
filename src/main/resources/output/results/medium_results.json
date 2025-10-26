@@ -1,0 +1,93 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "input_stats" : {
+      "vertices" : 10,
+      "edges" : 19
+    },
+    "prim" : {
+      "mst_edges" : [ {
+        "from" : "V1",
+        "to" : "V2",
+        "weight" : 11.0
+      }, {
+        "from" : "V0",
+        "to" : "V2",
+        "weight" : 4.0
+      }, {
+        "from" : "V1",
+        "to" : "V3",
+        "weight" : 4.0
+      }, {
+        "from" : "V4",
+        "to" : "V7",
+        "weight" : 5.0
+      }, {
+        "from" : "V1",
+        "to" : "V5",
+        "weight" : 3.0
+      }, {
+        "from" : "V6",
+        "to" : "V8",
+        "weight" : 7.0
+      }, {
+        "from" : "V1",
+        "to" : "V7",
+        "weight" : 5.0
+      }, {
+        "from" : "V8",
+        "to" : "V9",
+        "weight" : 1.0
+      }, {
+        "from" : "V5",
+        "to" : "V9",
+        "weight" : 1.0
+      } ],
+      "total_cost" : 41.0,
+      "operations_count" : 76,
+      "execution_time_ms" : 0.190833
+    },
+    "kruskal" : {
+      "mst_edges" : [ {
+        "from" : "V5",
+        "to" : "V9",
+        "weight" : 1.0
+      }, {
+        "from" : "V8",
+        "to" : "V9",
+        "weight" : 1.0
+      }, {
+        "from" : "V1",
+        "to" : "V5",
+        "weight" : 3.0
+      }, {
+        "from" : "V0",
+        "to" : "V2",
+        "weight" : 4.0
+      }, {
+        "from" : "V1",
+        "to" : "V3",
+        "weight" : 4.0
+      }, {
+        "from" : "V1",
+        "to" : "V7",
+        "weight" : 5.0
+      }, {
+        "from" : "V4",
+        "to" : "V7",
+        "weight" : 5.0
+      }, {
+        "from" : "V6",
+        "to" : "V8",
+        "weight" : 7.0
+      }, {
+        "from" : "V1",
+        "to" : "V2",
+        "weight" : 11.0
+      } ],
+      "total_cost" : 41.0,
+      "operations_count" : 61,
+      "execution_time_ms" : 0.050333
+    }
+  } ]
+}

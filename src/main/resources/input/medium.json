@@ -1,0 +1,83 @@
+{
+  "graphs" : [ {
+    "id" : 1,
+    "nodes" : [ "V0", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9" ],
+    "edges" : [ {
+      "from" : "V0",
+      "to" : "V2",
+      "weight" : 4
+    }, {
+      "from" : "V0",
+      "to" : "V3",
+      "weight" : 17
+    }, {
+      "from" : "V1",
+      "to" : "V2",
+      "weight" : 11
+    }, {
+      "from" : "V1",
+      "to" : "V3",
+      "weight" : 4
+    }, {
+      "from" : "V1",
+      "to" : "V5",
+      "weight" : 3
+    }, {
+      "from" : "V1",
+      "to" : "V7",
+      "weight" : 5
+    }, {
+      "from" : "V1",
+      "to" : "V9",
+      "weight" : 6
+    }, {
+      "from" : "V2",
+      "to" : "V6",
+      "weight" : 15
+    }, {
+      "from" : "V3",
+      "to" : "V4",
+      "weight" : 7
+    }, {
+      "from" : "V3",
+      "to" : "V5",
+      "weight" : 18
+    }, {
+      "from" : "V3",
+      "to" : "V8",
+      "weight" : 6
+    }, {
+      "from" : "V3",
+      "to" : "V9",
+      "weight" : 4
+    }, {
+      "from" : "V4",
+      "to" : "V6",
+      "weight" : 15
+    }, {
+      "from" : "V4",
+      "to" : "V7",
+      "weight" : 5
+    }, {
+      "from" : "V4",
+      "to" : "V9",
+      "weight" : 15
+    }, {
+      "from" : "V5",
+      "to" : "V7",
+      "weight" : 17
+    }, {
+      "from" : "V5",
+      "to" : "V9",
+      "weight" : 1
+    }, {
+      "from" : "V6",
+      "to" : "V8",
+      "weight" : 7
+    }, {
+      "from" : "V8",
+      "to" : "V9",
+      "weight" : 1
+    } ]
+  } ]
+}

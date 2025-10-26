@@ -1,0 +1,2 @@
+Graph,PrimCost,KruskalCost,PrimTime,KruskalTime,PrimOps,KruskalOps
+large,60.00,60.00,0.466,0.293,324,215
